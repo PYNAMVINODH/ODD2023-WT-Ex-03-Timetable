@@ -71,6 +71,7 @@ Execute the program
 </html>
 ```
 # OUPUT
-![image](https://github.com/PYNAMVINODH/ODD2023-WT-Ex-03-Timetable/assets/145742678/04788bff-1355-4f1b-b181-ea2ae692f8e1)
+![image](https://github.com/PYNAMVINODH/ODD2023-WT-Ex-03-Timetable/assets/145742678/f1a86a13-205e-44c4-b10b-b6dc02ed7134)
+
 # RESULT :
 The Time table is created successfully using html
