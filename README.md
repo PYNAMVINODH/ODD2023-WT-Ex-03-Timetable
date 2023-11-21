@@ -14,73 +14,60 @@ Execute the program
 
 # CODE
 ```
- <!DOCTYPE html>
 <html>
     <head>
-        <title>Time Table</title>
+        <title>
+            Slot Timetable
+        </title>
+        <link rel="stylesheet" href="main.css" type="text/css">
     </head>
     <body>
-<TABLE BORDER="3" width="950" bgcolor="white" cellspacing="8" cellpadding="8"> 
-    <TR> 
-        <TH colspan="4" align="center">TIME TABLE</TH>
-    </TR>   
-    <TR> 
-        <TD rowspan="2" width="25%">Monday</TD>
-        <TD width=""25% bgcolor="white">8:00 - 10:00</TD>
-        <TD width=""25% bgcolor="white">1:00 - 3:00</TD>
-        <TD width=""25% bgcolor="white">3:00 - 5:00</TD>
-    </TR>
-    <TR>
-        <TD width="25%"> 19AI302/SELVAM.R</TD> 
-        <TD width="25%">19EN101/SUNITHA DEVA KUMARI</TD>
-        <TD width="25%">19AI303/SRIDHAR.S</TD>
-    </TR>
-    <TR> 
-        <TD rowspan="2" width="25%">Tuesday</TD>
-        <TD width=""25% bgcolor="white">8:00 - 10:00</TD>
-        <TD width=""25% bgcolor="white">10:00 - 12:00</TD>
-        <TD width=""25% bgcolor="white">1:00 - 3:00</TD>
-    </TR>
-    <TR>
-        <TD width="25%">19AI303/SRIDHAR.S</TD> 
-        <TD width="25%">19EY701/EVANGELIN HELEN</TD>
-        <TD width="25%">19AI301/ARCHANA S H</TD>
-    </TR>
-    <TR> 
-        <TD rowspan="2" width="25%">Wednesday</TD>
-        <TD width=""25% bgcolor="white">8:00 - 10:00</TD>
-        <TD width=""25% bgcolor="white">10:00 - 12:00</TD>
-        <TD width=""25% bgcolor="white">1:00 - 5:00</TD> 
-    </TR>
-    <TR>
-        <TD width="25%">19AI301/ARCHANA S H </TD> 
-        <TD width="25%">19AI414/KARTHI GOVINDHARAJU</TD>
-        <TD width="25%">No Class</TD>
-    </TR>
-    <TR> 
-        <TD rowspan="2" width="25%">Thursday</TD>
-        <TD width=""25% bgcolor="white">8:00 - 10:00</TD>
-        <TD width=""25% bgcolor="white">10:00 - 12:00</TD>
-        <TD width=""25% bgcolor="white">3:00 - 5:00</TD>
-    </TR>
-    <TR>
-        <TD width="25%">19AI414/KARTHI GOVINDHARAJU</TD> 
-        <TD width="25%"> 19AI302/SELVAM.R</TD>
-        <TD width="25%">19AI301/ARCHANA S H</TD>
-    </TR>
-    <TR> 
-        <TD rowspan="2" width="25%">Friday</TD>
-        <TD width=""25% bgcolor="white">8:00 - 10:00</TD>
-        <TD width=""25% bgcolor="white">10:00 - 12:00</TD>
-        <TD width=""25% bgcolor="white">1:00 - 3:00</TD>
-    </TR>
-    <TR>
-        <TD width="25%">19EN101/SUNITHA DEVA KUMARI</TD> 
-        <TD width="25%">19AI414/KARTHI GOVINDHARAJU</TD>
-        <TD width="25%">19AI301/ARCHANA S H</TD>
-    </TR>
-    </TABLE>
-    </body>
+        <br>
+        <table align="center" width="500" cellspacing="2" cellpadding="4" border="5" bgcolor="pink">
+            <caption><b>Slot Time Table-Jeshwanth 23002519</b></caption>
+            <tr align="center">
+                <th bgcolor="yellow">Day/Time</th>
+                <th bgcolor="yellow">Monday</th>  
+                <th bgcolor="yellow">Tuesday</th>  
+                <th bgcolor="yellow">wednesday</th>  
+                <th bgcolor="yellow">Thursday</th>  
+                <th bgcolor="yellow">Friday</th>  
+            </tr>
+            <tr align="center">
+                <th bgcolor="yellow">8-10</th>
+                <td>Engineering Designing and Modelling</td>
+                <td>Engineering Mechanics and Product Development</td>
+                <td>Python and Linear Algebra</td>
+                <td>Fundamentals of Web Applications</td>
+                <td>Communicative English</td>
+            </tr>
+            <tr align="center">
+            <th bgcolor="yellow">10-12</th>
+            <td>No class</td>
+            <td>Soft Skills</td>
+            <td>Fundamentals of Web Applications</td>
+            <td>Engineering Designing and Modelling</td>
+            <td>Fundamentals of Web Applications</td>
+            </tr>
+            <tr align="center">
+                <th bgcolor="yellow">1-3</th>
+                <td>Communicative English</td>
+                <td>Python and Linear Algebra</td>
+                <td>No class</td>
+                <td>No class</td>
+                <td>Python and Linear Algebra</td>
+                
+            </tr>
+            <tr align="center">
+                <th bgcolor="yellow">3-5</th>
+                <td>Engineering Mechanics and Product Development</td>
+                <td>No class</td>
+                <td>No class</td>
+                <td>Python and Linear Algebra</td>
+                <td>No class</td>
+            </tr>
+        </table>
+    </body>
 </html>
 ```
 # OUPUT
